@@ -1,0 +1,55 @@
+.add{
+    width: 70%;
+    margin-left: max(5vw, 25px);
+    margin-top: 50px;
+    color: #333;
+    font-size: 18px;
+    font-weight: 500;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.img-upload img{
+    width: 120px;
+    object-fit: cover;
+ 
+  
+}
+.product-name, .product-description{
+    width:max(40%, 280px)
+}
+.product-name input, .product-description textarea{
+
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.product-name input:focus, .product-description textarea:focus{
+    outline: none;
+    border-color: tomato;
+}
+.add-category{
+    display: flex;
+    gap: 20px;
+}
+.add-category select, .add-category input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    max-width: 120px;
+}
+.add-category select:focus, .add-category input:focus{
+    outline: none;
+    border-color: tomato;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: max(120px, 20%);
+}
